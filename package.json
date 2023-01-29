@@ -1,0 +1,16 @@
+{
+  "name": "nostr-indexer-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lightning K0ala",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^16.6.0",
+    "graphql-yoga": "^3.4.0",
+    "nostr-indexer": "^0.1.2"
+  }
+}
