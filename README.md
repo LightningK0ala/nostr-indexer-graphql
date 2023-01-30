@@ -2,6 +2,8 @@
 
 Example of a graphql server using [nostr-indexer](https://github.com/LightningK0ala/nostr-indexer/blob/main/README.md)
 
+<img width="1762" alt="Xnapper-2023-01-30-03 00 14" src="https://user-images.githubusercontent.com/1495499/215378497-db623789-86cd-4e25-9b93-9f9b4be3718c.png">
+
 ## How to use
 
 1. Install dependencies:
