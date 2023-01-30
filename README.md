@@ -2,4 +2,24 @@
 
 Example of a graphql server using [nostr-indexer](https://github.com/LightningK0ala/nostr-indexer/blob/main/README.md)
 
-![Screenshot 2023-01-29 at 09 49 26](https://user-images.githubusercontent.com/1495499/215319007-4ad742dd-bd62-4cdb-8fe2-63094492c8eb.png)
+## How to use
+
+1. Install dependencies:
+
+```
+npm install
+```
+
+2. Setup database
+
+```
+DATABASE_URL=file:<FULL_PATH_TO_DB_FILE> npx prisma migrate reset --schema ./node_modules/nostr-indexer/dist/prisma/schema.prisma
+```
+
+Replace `FULL_PATH_TO_DB_FILE` with where you want the database file to live, eg. `/my-project/nostr.db`
+
+3. Run
+
+```
+npm start
+```
