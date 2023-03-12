@@ -1,0 +1,5 @@
+build
+grafana
+pgdata
+/node_modules
+.env
